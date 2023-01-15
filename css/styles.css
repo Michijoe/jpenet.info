@@ -18,10 +18,9 @@ body{
 main{
     flex: 1;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     margin: 0 10vw;
-    padding: 0 5vw;
 }
 
 a{
@@ -73,4 +72,25 @@ footer{
     color: #572C9D;
 }
 
+main > section{
+    flex: 40%;
+    padding: 20px;
+}
+
+img{
+    border-radius: 300px;
+}
+
+h1{
+    font-size: 4rem;
+    color: #572C9D;
+}
+
+main a {
+    display: inline-block;
+}
+
+section > *{
+    padding: 15px 0;
+}
 
