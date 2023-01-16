@@ -32,6 +32,11 @@ a{
     color: #572C9D;
 }
 
+footer a{
+    letter-spacing: 0;
+    padding: 0 5px;
+}
+
 header{
     position: sticky;
     top: 0;
@@ -96,6 +101,7 @@ h3{
 
 main a {
     display: inline-block;
+    padding: 10px;
 }
 
 section > *{
